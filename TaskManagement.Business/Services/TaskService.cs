@@ -1,7 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
 using TaskManagement.Data.Context;
-
 using FluentValidation;
 using TaskManagement.Domain.Interface.Services;
 using DomainTask = TaskManagement.Domain.Entities.Task;

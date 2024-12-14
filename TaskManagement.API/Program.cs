@@ -4,6 +4,7 @@ using TaskManagement.Business.Services;
 using TaskManagement.Domain.Interface.Services;
 using FluentValidation;
 using TaskManagement.API.Validation;
+using TaskManagement.Business.Validators;
 using TaskManagement.Domain.Entities;
 using Task = TaskManagement.Domain.Entities.Task;
 

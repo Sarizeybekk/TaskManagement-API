@@ -1,7 +1,7 @@
 using FluentValidation;
 using Task = TaskManagement.Domain.Entities.Task;
 
-namespace TaskManagement.API.Validation
+namespace TaskManagement.Business.Validators
 {
     public class TaskValidator : AbstractValidator<Task>
     {
