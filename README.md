@@ -69,8 +69,8 @@ The application adheres to **N-Tier Architecture**, ensuring separation of conce
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/username/task-management.git
-cd task-management
+[git clone https://github.com/username/task-management.git](https://github.com/Sarizeybekk/TaskManagement-API.git)
+cd TaskManagement-API
 ```
 
 ### 2️⃣ Build the Project
