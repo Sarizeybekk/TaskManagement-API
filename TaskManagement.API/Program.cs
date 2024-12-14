@@ -5,6 +5,7 @@ using TaskManagement.Domain.Interface.Services;
 using FluentValidation;
 using TaskManagement.API.Validation;
 using TaskManagement.Domain.Entities;
+using Task = TaskManagement.Domain.Entities.Task;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Add FluentValidation to Validation Layer
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IValidator<User>, UserValidator>();
+
+builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.AddScoped<IValidator<Task>, TaskValidator>();
 
 builder.Services.AddControllers();
 
